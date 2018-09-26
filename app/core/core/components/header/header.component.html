@@ -1,0 +1,14 @@
+<div class="header">
+<img src="./assets/unnamed.jpg " alt="Logo" class="logo"/> 
+<div class="list">
+<ul class="ul">
+	<li *ngFor="let tv  of  menu" >
+		<a href="#" class="link" (click)="showInfoTv(tv)">
+				{{ tv.title }}
+			
+		</a>
+		</li>
+</ul>
+</div>
+</div>
+

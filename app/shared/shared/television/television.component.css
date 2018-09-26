@@ -1,0 +1,13 @@
+.tv{
+	margin-left:400px ;
+	width: 700px;
+	position: absolute
+}
+.images{
+	width:488px;
+	height: 328px;
+	border-radius: 50px;
+	margin-left:450px;
+    position:relative ;
+    margin-top: 205px
+}
